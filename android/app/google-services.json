@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1084791005527",
+    "firebase_url": "https://vehicle-service-6ad36-default-rtdb.firebaseio.com",
+    "project_id": "vehicle-service-6ad36",
+    "storage_bucket": "vehicle-service-6ad36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084791005527:android:27377839c5cc73b1e19e12",
+        "android_client_info": {
+          "package_name": "com.dananjaya.vehicle_service_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084791005527-6r6qc2072atnc5t4l039fk33k6cva2dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFlLxgeKPHpehD2bdui6AnVjq6vucMfhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084791005527-6r6qc2072atnc5t4l039fk33k6cva2dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
