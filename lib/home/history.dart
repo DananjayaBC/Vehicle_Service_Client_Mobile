@@ -38,6 +38,7 @@ class History extends StatelessWidget {
         .collection('userData')
         .document(uid)
         .collection('Request')
+        .orderBy('date', descending: true)
         .snapshots();
   }
 
@@ -118,8 +119,8 @@ class History extends StatelessWidget {
                     children: <Widget>[
                       Expanded(
                         child: Text(
-                          "Mobile Number - ${(payment['mNumber'])} ",
-                          style: new TextStyle(fontSize: 15.0),
+                          " ${(payment['date'])} ",
+                          style: new TextStyle(fontSize: 17.0),
                         ),
                       ),
                       Spacer(),

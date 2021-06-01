@@ -147,6 +147,7 @@ class _HomeState extends State<Home> {
                                 'note': value4.text,
                                 'mNumber': value3.text,
                                 'type': selectedUser,
+                                'date': formattedDate1,
                               });
 
                               await Firestore.instance
