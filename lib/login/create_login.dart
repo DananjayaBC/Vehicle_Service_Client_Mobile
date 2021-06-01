@@ -100,7 +100,7 @@ class _SignUpViewState extends State<SignUpView> {
               Column(
                 children: <Widget>[
                   Icon(
-                    FontAwesomeIcons.train,
+                    FontAwesomeIcons.carCrash,
                     color: Color.fromRGBO(245, 48, 111, 1.0),
                     size: 60.0,
                   ),
@@ -169,7 +169,7 @@ class _SignUpViewState extends State<SignUpView> {
   Widget showAlert() {
     if (_warning != null) {
       return Container(
-        color: Colors.black,
+        color: Colors.orange,
         width: double.infinity,
         padding: EdgeInsets.all(8.0),
         child: Row(
@@ -277,7 +277,7 @@ class _SignUpViewState extends State<SignUpView> {
     textFields.add(
       TextFormField(
         validator: EmailValidator.validate,
-        style: TextStyle(color: Colors.white, fontSize: 22.0),
+        style: TextStyle(color: Colors.black, fontSize: 22.0),
         decoration: InputDecoration(
           errorStyle: TextStyle(color: Colors.black),
           enabledBorder:
